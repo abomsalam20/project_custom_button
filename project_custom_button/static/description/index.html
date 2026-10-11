@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .oe_title_box { background: linear-gradient(135deg, #875A7B 0%, #5C3D52 100%); color: white; border-radius: 15px; padding: 40px; }
+        .feature-icon { width: 60px; height: 60px; background: #f3f0ff; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 28px; }
+        .feature-card { border: 1px solid #e9ecef; border-radius: 12px; padding: 20px; transition: all 0.3s; height: 100%; }
+        .feature-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.08); transform: translateY(-2px); }
+        .screenshot-box { background: #f8f9fa; border-radius: 12px; padding: 20px; border: 2px dashed #dee2e6; text-align: center; min-height: 200px; display: flex; align-items: center; justify-content: center; }
+    </style>
+</head>
+<body>
+<div class="container my-5">
+    <!-- Header -->
+    <div class="oe_title_box text-center mb-5">
+        <h1 class="display-5 fw-bold">Project Custom Button</h1>
+        <p class="lead mt-3 mb-0" style="opacity:0.9;">Add powerful custom action buttons to your Project module with one click workflow automation</p>
+        <div class="mt-4">
+            <span class="badge bg-light text-dark px-3 py-2 me-2">Odoo 16, 17, 18</span>
+            <span class="badge bg-light text-dark px-3 py-2 me-2">Community & Enterprise</span>
+            <span class="badge bg-warning text-dark px-3 py-2">No Coding Required</span>
+        </div>
+    </div>
+
+    <!-- Overview -->
+    <div class="row mb-5">
+        <div class="col-12">
+            <h2 class="fw-bold mb-3"><span style="color:#875A7B;">●</span> Overview</h2>
+            <p class="text-muted fs-5">
+                The <strong>Project Custom Button Module</strong> enhances the Odoo Project app by adding fully configurable smart buttons directly on Project and Task forms.
+                Perfect for quick actions like Create Invoice, Start Timesheet, Duplicate Project, Send Report, or any custom server action you need.
+                Save time and streamline your project workflow without modifying core Odoo code.
+            </p>
+        </div>
+    </div>
+
+    <!-- Key Features -->
+    <div class="row mb-5">
+        <div class="col-12 mb-4">
+            <h2 class="fw-bold"><span style="color:#875A7B;">●</span> Key Features</h2>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="feature-card">
+                <div class="feature-icon mb-3">⚡</div>
+                <h5 class="fw-bold">One-Click Actions</h5>
+                <p class="text-muted small mb-0">Add custom buttons on project.project and project.task views. Execute Python code, server actions, or open wizards instantly.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="feature-card">
+                <div class="feature-icon mb-3">🎯</div>
+                <h5 class="fw-bold">Smart Visibility</h5>
+                <p class="text-muted small mb-0">Control button visibility by user groups, project stage, state, or custom domain. Buttons show only when relevant.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="feature-card">
+                <div class="feature-icon mb-3">🎨</div>
+                <h5 class="fw-bold">Fully Customizable</h5>
+                <p class="text-muted small mb-0">Choose icon, color, label, sequence, tooltip. Supports Font Awesome & Odoo Icons. No development needed for basic setup.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="feature-card">
+                <div class="feature-icon mb-3">🔒</div>
+                <h5 class="fw-bold">Access Control</h5>
+                <p class="text-muted small mb-0">Restrict buttons to Project Manager, User, or custom security groups. Secure by design.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="feature-card">
+                <div class="feature-icon mb-3">🔧</div>
+                <h5 class="fw-bold">Multi-Action Support</h5>
+                <p class="text-muted small mb-0">Link to window actions, server actions, URL actions, client actions. Works with automated actions and webhooks.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="feature-card">
+                <div class="feature-icon mb-3">📱</div>
+                <h5 class="fw-bold">Responsive</h5>
+                <p class="text-muted small mb-0">Works perfectly on Odoo Backend, Odoo Mobile App, and new OWL views. Compatible with Odoo 16/17/18.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- How It Works -->
+    <div class="row mb-5 bg-light p-4 rounded-4">
+        <div class="col-md-6">
+            <h3 class="fw-bold mb-4">How It Works</h3>
+            <ol class="fs-6">
+                <li class="mb-2"><strong>Install</strong> the module from Apps menu</li>
+                <li class="mb-2"><strong>Go to</strong> Project > Configuration > Custom Buttons</li>
+                <li class="mb-2"><strong>Create</strong> new button: set Name, Model (project.project / project.task), Icon</li>
+                <li class="mb-2"><strong>Define Action</strong> – select existing Action or write simple Python code</li>
+                <li class="mb-2"><strong>Set Conditions</strong> – who sees it and when</li>
+                <li><strong>Save & Refresh</strong> – button appears instantly!</li>
+            </ol>
+        </div>
+        <div class="col-md-6">
+            <div class="screenshot-box">
+                <div>
+                    <div style="font-size:50px;">📸</div>
+                    <p class="text-muted mt-2 mb-1">Screenshot Placeholder</p>
+                    <small class="text-muted">Add your module screenshots here<br>project_form_with_button.png</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Use Cases -->
+    <div class="row mb-5">
+        <div class="col-12 mb-3">
+            <h3 class="fw-bold">Popular Use Cases</h3>
+        </div>
+        <div class="col-12">
+            <table class="table table-bordered rounded-3 overflow-hidden">
+                <thead class="table-dark">
+                    <tr><th>Button Name</th><th>What it does</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><span class="badge bg-success">Create Invoice</span></td><td>Generate customer invoice from project in one click</td></tr>
+                    <tr><td><span class="badge bg-primary">Start Timer</span></td><td>Quick start timesheet timer on task</td></tr>
+                    <tr><td><span class="badge bg-warning text-dark">Clone Project</span></td><td>Duplicate project with tasks and stages</td></tr>
+                    <tr><td><span class="badge bg-info">Send Report</span></td><td>Email project report to customer / manager</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Technical -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="p-3 border rounded-3">
+                <h5 class="fw-bold">📦 Technical Details</h5>
+                <ul class="small text-muted mb-0">
+                    <li>Depends: project</li>
+                    <li>No external Python dependencies</li>
+                    <li>Fully translatable</li>
+                    <li>License: LGPL-3 / OPL as per your choice</li>
+                    <li>Installs in &lt; 5 seconds</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="p-3 border rounded-3 bg-dark text-white">
+                <h5 class="fw-bold">💬 Support</h5>
+                <p class="small mb-2" style="opacity:0.8">Free 30 Days Support • Bug Fixes • Odoo.sh & On-Premise Compatible</p>
+                <p class="small mb-0">Contact: [Your Email] <br> Documentation: included in /doc folder</p>
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-4">
+    <p class="text-center text-muted small">Designed for Odoo Community & Enterprise • Clean Code • No Core Overwrites</p>
+</div>
+</body>
+</html>
